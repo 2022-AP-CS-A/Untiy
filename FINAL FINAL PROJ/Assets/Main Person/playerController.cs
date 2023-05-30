@@ -5,20 +5,21 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     //jump
-    //move left right
+    //move left right - Check
     //double jump
     //Dash
-    //Sprint
-
+    //Sprint - Check
+    public float walkSpeed = 5f;
+    public float sprintSpeed = 10f;
     public Rigidbody2D rb;
-    public Vector2 testVector;
-    public Vector2 jumpVector2 = new Vector2 (0.0f, 5.0f);
+    public float jumpForce = 5.7f;
+    public Collider2D groundCheck;
     // Start is called before the first frame update
     void Start()
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
-        testVector = rb.velocity; 
+        groundCheck = gameObject.GetComponent<Collider2D>();
 
     }
 
@@ -26,30 +27,21 @@ public class playerController : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey("d"))
+
+        if (Input.GetButton("Fire3"))
         {
-            rb.velocity = new Vector2(3.0f, 0.0f);
-        }
-        else
+            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * sprintSpeed, rb.velocity.y);
+        } else
         {
-            rb.velocity = new Vector2(0f, 0f);
+            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
         }
 
-
-        if (Input.GetKey("a"))
+        if (Input.GetButtonDown("Jump"))
         {
-            rb.velocity = new Vector2(-3.0f, 0.0f);
-        }
-        else
-        {
-            rb.velocity = new Vector2(0f, 0f);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce); 
         }
 
-
-        if (Input.GetKeyDown("space"))
-        {
-            rb.AddForce(jumpVector2, ForceMode2D.Impulse);
-        }
+        
     }
 
   
