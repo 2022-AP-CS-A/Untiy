@@ -27,7 +27,7 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+       
 
         if (Input.GetButton("Fire3"))
         {
@@ -44,15 +44,23 @@ public class playerController : MonoBehaviour
 
         
     }
-   
-  void OnTriggerEnter2D(Collider2D col)
+
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.tag == "Terrain")
+
+        if (col.gameObject.tag == "Terrain")
         {
             isGrounded = true;
-        } else
+        }
+
+        
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Terrain")
         {
-            isGrounded = false; 
+            isGrounded = false;
         }
     }
 }
