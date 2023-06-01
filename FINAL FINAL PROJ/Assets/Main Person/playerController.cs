@@ -14,6 +14,7 @@ public class playerController : MonoBehaviour
     public Rigidbody2D rb;
     public float jumpForce = 5.7f;
     public Collider2D groundCheck;
+    public bool isGrounded; 
     // Start is called before the first frame update
     void Start()
     {
@@ -36,13 +37,22 @@ public class playerController : MonoBehaviour
             rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce); 
         }
 
         
     }
-
-  
+   
+  void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "Terrain")
+        {
+            isGrounded = true;
+        } else
+        {
+            isGrounded = false; 
+        }
+    }
 }
