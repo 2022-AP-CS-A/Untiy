@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
-    //jump
+    //jump - Check
     //move left right - Check
     //double jump
     //Dash
@@ -14,7 +14,9 @@ public class playerController : MonoBehaviour
     public Rigidbody2D rb;
     public float jumpForce = 5.7f;
     public Collider2D groundCheck;
-    public bool isGrounded; 
+    public bool isGrounded;
+    public int doubleJump;
+    public int health = 5; 
     // Start is called before the first frame update
     void Start()
     {
@@ -37,9 +39,10 @@ public class playerController : MonoBehaviour
             rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
         }
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if ((Input.GetButtonDown("Jump") && isGrounded) || (Input.GetButtonDown("Jump") && doubleJump >= 0))
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce); 
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            doubleJump--; 
         }
 
         
@@ -47,14 +50,24 @@ public class playerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        if (col.gameObject.tag == "Obstacle")
+        {
+            Debug.Log("wefwefw");
+            health--;
+        }
 
         if (col.gameObject.tag == "Terrain")
         {
             isGrounded = true;
+            doubleJump = 1;
         }
+        Debug.Log(col.gameObject.tag == "Obstacle");
 
-        
+       
+
     }
+
+
 
     void OnTriggerExit2D(Collider2D col)
     {
