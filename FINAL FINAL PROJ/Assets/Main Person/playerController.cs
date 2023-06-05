@@ -39,7 +39,7 @@ public class playerController : MonoBehaviour
             rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
         }
 
-        if ((Input.GetButtonDown("Jump") && isGrounded) || (Input.GetButtonDown("Jump") && doubleJump >= 0))
+        if ((Input.GetButtonDown("Jump") && isGrounded && doubleJump >= 0) || (Input.GetButtonDown("Jump") && doubleJump >= 0))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             doubleJump--; 
@@ -50,10 +50,11 @@ public class playerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Obstacle")
+        if (col.gameObject.tag == "Enemy")
         {
-            Debug.Log("wefwefw");
             health--;
+            isGrounded = true;
+            doubleJump = 1; 
         }
 
         if (col.gameObject.tag == "Terrain")
@@ -61,15 +62,16 @@ public class playerController : MonoBehaviour
             isGrounded = true;
             doubleJump = 1;
         }
-        Debug.Log(col.gameObject.tag == "Obstacle");
-
        
+
+
 
     }
 
 
 
-    void OnTriggerExit2D(Collider2D col)
+
+        void OnTriggerExit2D(Collider2D col)
     {
         if (col.gameObject.tag == "Terrain")
         {

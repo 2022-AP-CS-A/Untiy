@@ -548,7 +548,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.95}
+  m_Offset: {x: -0.0094510615, y: -0.9833309}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -559,7 +559,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.25}
+  m_Size: {x: 1.081908, y: 0.31666172}
   m_EdgeRadius: 0
 --- !u!61 &713893746
 BoxCollider2D:
@@ -819,9 +819,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6394562881149871110, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562881272894776, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562881353385796, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562881989160139, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562882191200253, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6394562882651171960, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_Name
       value: Obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562882651171960, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6394562882651171961, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_RootOrder
@@ -865,6 +889,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6394562882651171961, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562882806719026, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562883006624791, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562883026974362, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394562883142885123, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
