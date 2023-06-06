@@ -17,23 +17,20 @@ public class playerController : MonoBehaviour
     public bool isGrounded;
     public int doubleJump;
     public int health = 5;
-    private Canvas myCanvas; 
+    
     // Start is called before the first frame update
     void Start()
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
         groundCheck = gameObject.GetComponent<Collider2D>();
-        myCanvas = FindObjectOfType<Canvas>();
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(health == 0)
-        {
-            myCanvas.renderMode = RenderMode.ScreenSpaceOverlay; 
-        }
+       
 
         if (Input.GetButton("Fire3"))
         {
