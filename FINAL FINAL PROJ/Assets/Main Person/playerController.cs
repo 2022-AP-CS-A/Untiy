@@ -10,7 +10,6 @@ public class playerController : MonoBehaviour
     //Dash
     //Sprint - Check
     public float walkSpeed = 5f;
-    public float sprintSpeed = 10f;
     public Rigidbody2D rb;
     public float jumpForce = 5.7f;
     public Collider2D groundCheck;
@@ -32,13 +31,8 @@ public class playerController : MonoBehaviour
     {
        
 
-        if (Input.GetButton("Fire3"))
-        {
-            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * sprintSpeed, rb.velocity.y);
-        } else
-        {
-            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
-        }
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
+        
 
         if ((Input.GetButtonDown("Jump") && isGrounded && doubleJump >= 0) || (Input.GetButtonDown("Jump") && doubleJump >= 0))
         {

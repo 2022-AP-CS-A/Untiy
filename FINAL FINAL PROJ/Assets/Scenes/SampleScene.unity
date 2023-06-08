@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 17926440}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,7 +174,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 18765242}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -257,7 +257,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -565,6 +565,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &54453266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54453267}
+  - component: {fileID: 54453268}
+  m_Layer: 0
+  m_Name: Square (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54453267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54453266}
+  m_LocalRotation: {x: 0, y: 0, z: -0.5735764, w: 0.8191521}
+  m_LocalPosition: {x: 0.227, y: -0.028, z: 0}
+  m_LocalScale: {x: 0.082004175, y: 0.19145627, z: 1}
+  m_Children: []
+  m_Father: {fileID: 713893742}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -70}
+--- !u!212 &54453268
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54453266}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &62620161
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +726,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -687,7 +770,7 @@ GameObject:
   - component: {fileID: 62728765}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -726,7 +809,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -770,7 +853,7 @@ GameObject:
   - component: {fileID: 67137226}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -809,7 +892,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1057,7 +1140,7 @@ GameObject:
   - component: {fileID: 76289845}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1096,7 +1179,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1140,7 +1223,7 @@ GameObject:
   - component: {fileID: 91100141}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1179,7 +1262,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1244,7 +1327,7 @@ GameObject:
   - component: {fileID: 112031580}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1283,7 +1366,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1409,7 +1492,7 @@ GameObject:
   - component: {fileID: 135333399}
   m_Layer: 0
   m_Name: Spikes (19)
-  m_TagString: Untagged
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1846,7 +1929,7 @@ GameObject:
   - component: {fileID: 220137137}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1917,7 +2000,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2347,7 +2430,7 @@ GameObject:
   - component: {fileID: 295065765}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2468,7 +2551,7 @@ GameObject:
   - component: {fileID: 361732310}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2507,7 +2590,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2620,7 +2703,7 @@ GameObject:
   - component: {fileID: 405185998}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2659,7 +2742,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2703,7 +2786,7 @@ GameObject:
   - component: {fileID: 406359171}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2742,7 +2825,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2786,7 +2869,7 @@ GameObject:
   - component: {fileID: 407248011}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2825,7 +2908,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2869,7 +2952,7 @@ GameObject:
   - component: {fileID: 409312190}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2908,7 +2991,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3285,7 +3368,7 @@ GameObject:
   - component: {fileID: 450428844}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3324,7 +3407,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3451,7 +3534,7 @@ GameObject:
   - component: {fileID: 474778056}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3534,7 +3617,7 @@ GameObject:
   - component: {fileID: 478101542}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3573,7 +3656,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3893,7 +3976,7 @@ GameObject:
   - component: {fileID: 497792090}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3932,7 +4015,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4496,7 +4579,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 01d890c17b8ce304989925350ab7b617, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4634,7 +4717,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4992,7 +5075,7 @@ GameObject:
   - component: {fileID: 654300550}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5031,7 +5114,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5340,7 +5423,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9843582146093964d9c521c937922aa8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5533,7 +5616,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 01d890c17b8ce304989925350ab7b617, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5577,7 +5660,7 @@ GameObject:
   - component: {fileID: 697201766}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5616,7 +5699,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5943,7 +6026,7 @@ GameObject:
   - component: {fileID: 719650743}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6014,7 +6097,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6278,6 +6361,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &744100747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744100748}
+  - component: {fileID: 744100749}
+  m_Layer: 0
+  m_Name: Square (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &744100748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744100747}
+  m_LocalRotation: {x: 0, y: 0, z: 0.5735764, w: 0.8191521}
+  m_LocalPosition: {x: -0.183, y: -0.02890005, z: 0}
+  m_LocalScale: {x: 0.082004175, y: 0.19145627, z: 1}
+  m_Children: []
+  m_Father: {fileID: 713893742}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 70}
+--- !u!212 &744100749
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744100747}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &750109228
 GameObject:
   m_ObjectHideFlags: 0
@@ -6291,7 +6457,7 @@ GameObject:
   - component: {fileID: 750109230}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6362,7 +6528,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6819,7 +6985,7 @@ GameObject:
   - component: {fileID: 805782062}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6858,7 +7024,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7169,7 +7335,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7281,7 +7447,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8154a14e98aefde41b29e16a95affdcf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7325,7 +7491,7 @@ GameObject:
   - component: {fileID: 856416037}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7364,7 +7530,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7407,7 +7573,7 @@ GameObject:
   - component: {fileID: 861711530}
   m_Layer: 0
   m_Name: Spikes (12)
-  m_TagString: Untagged
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7446,7 +7612,7 @@ GameObject:
   - component: {fileID: 871658996}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7485,7 +7651,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7612,7 +7778,7 @@ GameObject:
   - component: {fileID: 919356796}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7651,7 +7817,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8077,7 +8243,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 01d890c17b8ce304989925350ab7b617, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8313,7 +8479,7 @@ GameObject:
   - component: {fileID: 1005017017}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8352,7 +8518,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8710,7 +8876,7 @@ GameObject:
   - component: {fileID: 1019768537}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8749,7 +8915,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8793,7 +8959,7 @@ GameObject:
   - component: {fileID: 1025538517}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8832,7 +8998,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8916,7 +9082,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8986,7 +9152,7 @@ GameObject:
   - component: {fileID: 1048649572}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9025,7 +9191,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9268,7 +9434,7 @@ GameObject:
   - component: {fileID: 1082884483}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9307,7 +9473,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9461,7 +9627,7 @@ GameObject:
   - component: {fileID: 1088729300}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9500,7 +9666,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9548,7 +9714,7 @@ GameObject:
   - component: {fileID: 1097998435}
   m_Layer: 0
   m_Name: Spikes (13)
-  m_TagString: Untagged
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9791,7 +9957,7 @@ GameObject:
   - component: {fileID: 1120304115}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9830,7 +9996,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10025,7 +10191,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8154a14e98aefde41b29e16a95affdcf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10484,7 +10650,7 @@ GameObject:
   - component: {fileID: 1174933325}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10523,7 +10689,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10606,7 +10772,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9843582146093964d9c521c937922aa8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10689,7 +10855,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5c7064062c29a7e46b0dbe20ac0028b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10733,7 +10899,7 @@ GameObject:
   - component: {fileID: 1184208906}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10882,7 +11048,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10926,7 +11092,7 @@ GameObject:
   - component: {fileID: 1197701512}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10965,7 +11131,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11341,7 +11507,7 @@ GameObject:
   - component: {fileID: 1227451563}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11380,7 +11546,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11705,7 +11871,7 @@ GameObject:
   - component: {fileID: 1271071788}
   m_Layer: 0
   m_Name: Spikes (15)
-  m_TagString: Untagged
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11898,6 +12064,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1290512652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1290512653}
+  - component: {fileID: 1290512654}
+  m_Layer: 0
+  m_Name: Square (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1290512653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290512652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.218, y: 0.445, z: 0}
+  m_LocalScale: {x: 0.14391504, y: 0.2640022, z: 1}
+  m_Children: []
+  m_Father: {fileID: 713893742}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1290512654
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290512652}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1297539756
 GameObject:
   m_ObjectHideFlags: 0
@@ -12031,7 +12280,7 @@ GameObject:
   - component: {fileID: 1313614510}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12070,7 +12319,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12486,7 +12735,7 @@ GameObject:
   - component: {fileID: 1344501200}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12525,7 +12774,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12607,7 +12856,7 @@ GameObject:
   - component: {fileID: 1362866096}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12646,7 +12895,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13365,7 +13614,7 @@ GameObject:
   - component: {fileID: 1420394273}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13436,7 +13685,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13566,18 +13815,34 @@ PrefabInstance:
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562881272894778, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 6394562881353385796, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562881353385798, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 6394562881989160139, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562881989160141, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 6394562882191200253, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562882191200255, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 6394562882651171960, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_Name
       value: InstaKill spikes
@@ -13634,18 +13899,34 @@ PrefabInstance:
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562882806719028, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 6394562883006624791, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562883006624793, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 6394562883026974362, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562883026974364, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 6394562883142885123, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_TagString
       value: InstantKill
       objectReference: {fileID: 0}
+    - target: {fileID: 6394562883142885125, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
     - target: {fileID: 8762513027993764114, guid: 68b6473af0a63ae4895d5a5581dd2820, type: 3}
       propertyPath: m_Material
       value: 
@@ -13813,7 +14094,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14190,7 +14471,7 @@ GameObject:
   - component: {fileID: 1497520369}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14261,7 +14542,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14818,6 +15099,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1567520408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1567520409}
+  - component: {fileID: 1567520410}
+  m_Layer: 0
+  m_Name: Square (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1567520409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567520408}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.021100003, y: -0.057100046, z: 0}
+  m_LocalScale: {x: 0.08414446, y: 0.2640022, z: 1}
+  m_Children: []
+  m_Father: {fileID: 713893742}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!212 &1567520410
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567520408}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1568751920
 GameObject:
   m_ObjectHideFlags: 0
@@ -14913,7 +15277,7 @@ GameObject:
   - component: {fileID: 1575009459}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14952,7 +15316,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15106,7 +15470,7 @@ GameObject:
   - component: {fileID: 1589483391}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15145,7 +15509,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15630,7 +15994,7 @@ GameObject:
   - component: {fileID: 1680719187}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15669,7 +16033,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15912,7 +16276,7 @@ GameObject:
   - component: {fileID: 1704523866}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16277,7 +16641,7 @@ GameObject:
   - component: {fileID: 1725574815}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16316,7 +16680,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16511,7 +16875,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17065,7 +17429,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8154a14e98aefde41b29e16a95affdcf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17451,7 +17815,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17651,7 +18015,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 01d890c17b8ce304989925350ab7b617, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17709,6 +18073,89 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1801217981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801217982}
+  - component: {fileID: 1801217983}
+  m_Layer: 0
+  m_Name: Square
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801217982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801217981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.219, y: 0.445, z: 0}
+  m_LocalScale: {x: 0.14391504, y: 0.2640022, z: 1}
+  m_Children: []
+  m_Father: {fileID: 713893742}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1801217983
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801217981}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1820446110
 GameObject:
   m_ObjectHideFlags: 0
@@ -17868,7 +18315,7 @@ GameObject:
   - component: {fileID: 1849767035}
   m_Layer: 0
   m_Name: Spikes (20)
-  m_TagString: Untagged
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18454,7 +18901,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 01d890c17b8ce304989925350ab7b617, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18497,7 +18944,7 @@ GameObject:
   - component: {fileID: 1898759282}
   m_Layer: 0
   m_Name: Spikes (21)
-  m_TagString: Untagged
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18786,7 +19233,7 @@ GameObject:
   - component: {fileID: 1925045655}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18857,7 +19304,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19066,7 +19513,7 @@ GameObject:
   - component: {fileID: 1953387664}
   m_Layer: 0
   m_Name: Spikes (14)
-  m_TagString: Untagged
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19173,7 +19620,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8154a14e98aefde41b29e16a95affdcf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19218,7 +19665,7 @@ GameObject:
   - component: {fileID: 1956858197}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19289,7 +19736,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19333,7 +19780,7 @@ GameObject:
   - component: {fileID: 1971121750}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19372,7 +19819,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19748,7 +20195,7 @@ GameObject:
   - component: {fileID: 1998509245}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19787,7 +20234,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19831,7 +20278,7 @@ GameObject:
   - component: {fileID: 2000948558}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19870,7 +20317,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19914,7 +20361,7 @@ GameObject:
   - component: {fileID: 2016771838}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19953,7 +20400,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19997,7 +20444,7 @@ GameObject:
   - component: {fileID: 2020792988}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20036,7 +20483,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20080,7 +20527,7 @@ GameObject:
   - component: {fileID: 2024924197}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20246,7 +20693,7 @@ GameObject:
   - component: {fileID: 2043691604}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
-  m_TagString: Enemy
+  m_TagString: InstantKill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20285,7 +20732,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f39effe04bb08944929c634f2a2a1d4, type: 2}
+  - {fileID: 2100000, guid: fb8feef3def307447b985c0c0d22fbac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20369,7 +20816,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2b0009ff1863b384589e2ad5b15c6f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21145,7 +21592,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8154a14e98aefde41b29e16a95affdcf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21257,7 +21704,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8154a14e98aefde41b29e16a95affdcf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
