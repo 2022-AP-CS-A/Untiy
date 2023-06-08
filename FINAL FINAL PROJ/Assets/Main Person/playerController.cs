@@ -58,6 +58,12 @@ public class playerController : MonoBehaviour
             doubleJump = 1; 
         }
 
+        if (col.gameObject.tag == "InstantKill")
+        {
+            health = 0;
+            
+        }
+
         if (col.gameObject.tag == "Terrain")
         {
             isGrounded = true;
