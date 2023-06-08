@@ -17,38 +17,45 @@ public class playerController : MonoBehaviour
     public bool isGrounded;
     public int doubleJump;
     public int health = 5;
-    private Canvas myCanvas; 
+    [SerializeField] Health healthbar;
+    public gameOver gameOver;
+    bool isDead = false;
+    
     // Start is called before the first frame update
     void Start()
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
         groundCheck = gameObject.GetComponent<Collider2D>();
-        myCanvas = FindObjectOfType<Canvas>();
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(health == 0)
-        {
-            myCanvas.renderMode = RenderMode.ScreenSpaceOverlay; 
-        }
 
-        if (Input.GetButton("Fire3"))
+        if (!isDead)
         {
-            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * sprintSpeed, rb.velocity.y);
-        } else
-        {
-            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
-        }
+            if (Input.GetButton("Fire3"))
+            {
+                rb.velocity = new Vector2(Input.GetAxis("Horizontal") * sprintSpeed, rb.velocity.y);
+            }
+            else
+            {
+                rb.velocity = new Vector2(Input.GetAxis("Horizontal") * walkSpeed, rb.velocity.y);
+            }
 
-        if ((Input.GetButtonDown("Jump") && isGrounded && doubleJump >= 0) || (Input.GetButtonDown("Jump") && doubleJump >= 0))
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            doubleJump--; 
+            if ((Input.GetButtonDown("Jump") && isGrounded && doubleJump >= 0) || (Input.GetButtonDown("Jump") && doubleJump >= 0))
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                doubleJump--;
+            }
         }
-
+        if(health <= 0)
+        {
+            gameOver.Setup();
+            isDead = true;
+        }
         
     }
 
@@ -58,7 +65,8 @@ public class playerController : MonoBehaviour
         {
             health--;
             isGrounded = true;
-            doubleJump = 1; 
+            doubleJump = 1;
+            healthbar.decreaseHealth();
         }
 
         if (col.gameObject.tag == "Terrain")
@@ -71,9 +79,6 @@ public class playerController : MonoBehaviour
 
 
     }
-
-
-
 
         void OnTriggerExit2D(Collider2D col)
     {
