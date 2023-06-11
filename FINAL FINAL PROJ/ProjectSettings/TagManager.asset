@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - InstantKill
   - 'Obstacle '
+  - FinishLine
   layers:
   - Default
   - TransparentFX
